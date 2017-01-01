@@ -1,6 +1,8 @@
 # Handwritten-Digit-Recognition-using-Deep-Learning
 
-**Accuracy using Machine Learning Algorithms:**                                                                                                                                                                                                                                         i)	 K Nearest Neighbors: 96.67%
+**Accuracy using Machine Learning Algorithms:**
+
+i)	 K Nearest Neighbors: 96.67%
 ii)	 SVM:	97.91%
 iii) Random Forest Classifier:	96.82%
 
