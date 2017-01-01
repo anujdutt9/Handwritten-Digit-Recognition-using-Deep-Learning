@@ -15,4 +15,4 @@ i)	Three Layer Convolutional Neural Network using Tensorflow:	99.70%
 
 ii)	Three Layer Convolutional Neural Network using Keras and Theano: 98.75%
 
-All code written in Python 3.5. Code executed on Intel Xeon Processor / AWS EC2 Server.
+**All code written in Python 3.5. Code executed on Intel Xeon Processor / AWS EC2 Server.**
