@@ -1,4 +1,4 @@
-# Handwritten-Digit-Recognition-using-Deep-Learning
+# Handwritten-Digit-Recognition-using-Machine-Learning-and-Deep-Learning
 
 **Accuracy using Machine Learning Algorithms:**
 
