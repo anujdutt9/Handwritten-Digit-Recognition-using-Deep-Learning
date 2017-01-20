@@ -39,3 +39,5 @@ clf = pickle.load(pickle_in)
 
 acc = clf.score(X_test,y_test)
 print('RFC Score: ',acc)
+
+#---------------------- EOC --------------------------#
