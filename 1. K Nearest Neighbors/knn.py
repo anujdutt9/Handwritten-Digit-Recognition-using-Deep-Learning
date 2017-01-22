@@ -37,11 +37,11 @@ X_train, X_test, y_train, y_test = cross_validation.train_test_split(X,y,test_si
 
 print('\nKNN Classifier with n_neighbors = 5, algorithm = auto, n_jobs = 10')
 print('\nPickling the Classifier for Future Use...')
-#clf = KNeighborsClassifier(n_neighbors=5,algorithm='auto',n_jobs=10)
-#clf.fit(X_train,y_train)
+clf = KNeighborsClassifier(n_neighbors=5,algorithm='auto',n_jobs=10)
+clf.fit(X_train,y_train)
 
-#with open('MNIST_KNN.pickle','wb') as f:
-#	pickle.dump(clf, f)
+with open('MNIST_KNN.pickle','wb') as f:
+	pickle.dump(clf, f)
 
 pickle_in = open('MNIST_KNN.pickle','rb')
 clf = pickle.load(pickle_in)
