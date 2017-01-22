@@ -36,11 +36,11 @@ X_train, X_test, y_train, y_test = cross_validation.train_test_split(X,y,test_si
 # Pickle the Classifier for Future Use
 print('\nSVM Classifier with gamma = 0.1; Kernel = polynomial')
 print('\nPickling the Classifier for Future Use...')
-#clf = svm.SVC(gamma=0.1, kernel='poly')
-#clf.fit(X_train,y_train)
+clf = svm.SVC(gamma=0.1, kernel='poly')
+clf.fit(X_train,y_train)
 
-#with open('MNIST_SVM.pickle','wb') as f:
-#	pickle.dump(clf, f)
+with open('MNIST_SVM.pickle','wb') as f:
+	pickle.dump(clf, f)
 
 pickle_in = open('MNIST_SVM.pickle','rb')
 clf = pickle.load(pickle_in)
