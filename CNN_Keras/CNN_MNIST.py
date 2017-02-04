@@ -40,7 +40,6 @@ sgd = optimisers.SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 clf = CNN(width=img_rows, height=img_columns, depth=1, total_classes=total_classes, weightsPath=args["weights"])
 clf.compile(loss="categorical_crossentropy", optimizer=sgd, metrics=["accuracy"])
 
-
 # Initially train and test the model; If weight saved already, load the weights using arguments.
 b_size = 128		# Batch size
 num_epoch = 20		# Number of epochs
@@ -79,3 +78,5 @@ for num in np.random.choice(np.arange(0, len(test_labels)), size=(5,)):
 	print('Predicted Label: {}, Actual Value: {}'.format(prediction[0],np.argmax(testLabels[num])))
 	cv2.imshow('Digits', image)
 	cv2.waitKey(0)
+	
+#---------------------- EOC ---------------------
