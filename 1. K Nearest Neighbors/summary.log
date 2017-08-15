@@ -1,0 +1,60 @@
+
+Loading MNIST Data...
+
+Loading Training Data...
+
+Loading Testing Data...
+
+Preparing Classifier Training and Validation Data...
+
+KNN Classifier with n_neighbors = 5, algorithm = auto, n_jobs = 10
+
+Pickling the Classifier for Future Use...
+
+Calculating Accuracy of trained Classifier...
+
+Making Predictions on Validation Data...
+
+Calculating Accuracy of Predictions...
+
+Creating Confusion Matrix...
+
+KNN Trained Classifier Confidence:  0.970166666667
+
+Predicted Values:  [5 1 0 ..., 9 3 8]
+
+Accuracy of Classifier on Validation Image Data:  0.970166666667
+
+Confusion Matrix: 
+ [[562   0   1   0   0   0   1   0   0   0]
+ [  0 695   2   0   0   0   0   1   0   1]
+ [  5   1 584   1   3   0   1   8   0   1]
+ [  1   2   4 583   0   4   0   1   3   4]
+ [  0   8   0   0 547   0   1   1   0  15]
+ [  1   1   0   4   1 508  10   1   2   2]
+ [  2   1   1   0   1   1 572   0   1   0]
+ [  0   5   2   0   0   0   0 606   0   2]
+ [  1   6   4  10   4   9   1   2 540   9]
+ [  2   2   0   7   7   1   0   6   0 624]]
+
+Making Predictions on Test Input Images...
+
+Calculating Accuracy of Trained Classifier on Test Data... 
+
+ Creating Confusion Matrix for Test Data...
+
+Predicted Labels for Test Images:  [7 2 1 ..., 4 5 6]
+
+Accuracy of Classifier on Test Images:  0.9675
+
+Confusion Matrix for Test Data: 
+ [[ 972    1    1    0    0    2    3    1    0    0]
+ [   0 1133    2    0    0    0    0    0    0    0]
+ [  12    7  988    2    0    0    1   19    3    0]
+ [   0    2    3  977    1   11    1    7    4    4]
+ [   3    7    0    0  944    0    5    2    1   20]
+ [   5    0    0   14    2  859    6    1    1    4]
+ [   5    3    0    0    3    2  945    0    0    0]
+ [   0   21    3    0    3    0    0  990    0   11]
+ [   7    4    4   16    7   13    4    6  909    4]
+ [   5    6    3   10    6    3    1   15    2  958]]
