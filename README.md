@@ -25,3 +25,12 @@ ii)	Three Layer Convolutional Neural Network using Keras and Theano: 98.75%
 ```
 https://www.youtube.com/watch?v=7kpYpmw5FfE
 ```
+
+## Test Images Classification Output:
+
+![Output a1](Outputs/0.png?raw=true "Output a1")  
+![Output a1](Outputs/4.png?raw=true "Output a1") 
+![Output a1](Outputs/5.png?raw=true "Output a1")
+![Output a1](Outputs/6.png?raw=true "Output a1") 
+![Output a1](Outputs/7.png?raw=true "Output a1")  
+![Output a1](Outputs/9.png?raw=true "Output a1")
