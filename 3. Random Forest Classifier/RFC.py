@@ -1,4 +1,4 @@
-# K Nearest Neighbors
+# Random Forest Classifier
 
 import sys
 import numpy as np
