@@ -21,7 +21,7 @@ sys.stdout = log_file
 print('\nLoading MNIST Data...')
 # data = MNIST('./python-mnist/data/')
 
-data = MNIST('./MNIST_Dataset_Loader/python-mnist/data/')
+data = MNIST('./MNIST_Dataset_Loader/dataset/')
 
 print('\nLoading Training Data...')
 img_train, labels_train = data.load_training()
