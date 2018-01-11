@@ -57,7 +57,49 @@ This will run the code and all the print statements will be logged into the "sum
 
 Alternatively, you can also use PyCharm to run the code and run the ".py" file in there.
 
-Repeat the steps for SVM, RFC and CNN code.
+Repeat the steps for SVM and RFC code.
+
+**4.** To run the CNN code, you don't need to provide in the MNIST dataset as it'll be downloaded automatically.
+
+Just run the file as :
+
+```
+python CNN_MNIST.py
+```
+
+or
+
+```
+python3 CNN_MNIST.py
+```
+
+and it should run fine. 
+
+**5.** If you want to save the CNN model weights after training, run the code with the following arguments:
+
+```
+python CNN_MNIST.py --save_model
+```
+
+or 
+
+```
+python3 CNN_MNIST.py --save_model
+```
+
+and it should save the model weights in the same directory.
+
+**6.** To load the saved model weights and avoid the training time again, use the following command:
+
+```
+python CNN_MNIST.py --load_model
+```
+
+or
+
+```
+python3 CNN_MNIST.py --load_model
+```
 
 ## Accuracy using Machine Learning Algorithms:
 
