@@ -13,13 +13,13 @@
 
 # Usage
 
-Download the four MNIST dataset files from this link:
+**1.** Download the four MNIST dataset files from this link:
 
 ```
 http://yann.lecun.com/exdb/mnist/
 ```
 
-Unzip and place the files in the dataset folder inside the MNIST_Dataset_Loader folder under each ML Algorithm folder i.e :
+**2.** Unzip and place the files in the dataset folder inside the MNIST_Dataset_Loader folder under each ML Algorithm folder i.e :
 
 ```
 KNN
@@ -32,6 +32,32 @@ KNN
 ```
 
 Do this for SVM and RFC folders and you should be good to go.
+
+**3.** To run the code, navigate to one of the directories for which you want to run the code using command prompt:
+
+```
+ex. cd 1. K Nearest Neighbors/
+```
+
+and then run the file "knn.py" as follows:
+
+```
+python knn.py
+```
+
+or 
+
+```
+python3 knn.py
+```
+
+This will run the code and all the print statements will be logged into the "summary.log" file.
+
+**NOTE: If you want to see the output to print on the Command prompt, just comment out line 16, 17, 18, 106 and 107 and hence you will get all the prints on the screen.**
+
+Alternatively, you can also use PyCharm to run the code and run the ".py" file in there.
+
+Repeat the steps for SVM, RFC and CNN code.
 
 ## Accuracy using Machine Learning Algorithms:
 
