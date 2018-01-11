@@ -97,6 +97,7 @@ plt.title('Confusion Matrix for Test Data')
 plt.colorbar()
 plt.ylabel('True label')
 plt.xlabel('Predicted label')
+plt.axis('off')
 plt.show()
 
 sys.stdout = old_stdout
