@@ -78,13 +78,13 @@ and it should run fine.
 **5.** If you want to save the CNN model weights after training, run the code with the following arguments:
 
 ```
-python CNN_MNIST.py --save_model
+python CNN_MNIST.py --save_model 1 --save_weights cnn_weights.hdf5
 ```
 
 or 
 
 ```
-python3 CNN_MNIST.py --save_model
+python3 CNN_MNIST.py --save_model 1 --save_weights cnn_weights.hdf5
 ```
 
 and it should save the model weights in the same directory.
@@ -92,14 +92,16 @@ and it should save the model weights in the same directory.
 **6.** To load the saved model weights and avoid the training time again, use the following command:
 
 ```
-python CNN_MNIST.py --load_model
+python CNN_MNIST.py --load_model 1 --save_weights cnn_weights.hdf5
 ```
 
 or
 
 ```
-python3 CNN_MNIST.py --load_model
+python3 CNN_MNIST.py --load_model 1 --save_weights cnn_weights.hdf5
 ```
+
+and it should load the model and show the Outputs.
 
 ## Accuracy using Machine Learning Algorithms:
 
