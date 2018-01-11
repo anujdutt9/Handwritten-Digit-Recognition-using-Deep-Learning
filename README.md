@@ -36,7 +36,7 @@ Do this for SVM and RFC folders and you should be good to go.
 **3.** To run the code, navigate to one of the directories for which you want to run the code using command prompt:
 
 ```
-ex. cd 1. K Nearest Neighbors/
+cd 1. K Nearest Neighbors/
 ```
 
 and then run the file "knn.py" as follows:
