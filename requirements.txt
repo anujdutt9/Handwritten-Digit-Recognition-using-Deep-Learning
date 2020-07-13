@@ -1,0 +1,6 @@
+keras==2.3.1
+tensorflow==2.0.1
+scikit-learn
+numpy
+matplotlib
+opencv-python

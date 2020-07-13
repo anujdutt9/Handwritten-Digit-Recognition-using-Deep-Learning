@@ -4,7 +4,8 @@ import cv2
 from cnn.neural_network import CNN
 from keras.utils import np_utils
 from keras.optimizers import SGD
-from sklearn.datasets import fetch_mldata
+# from sklearn.datasets import fetch_mldata
+from sklearn.datasets import fetch_openml
 from sklearn.model_selection import train_test_split
 
 
@@ -17,7 +18,8 @@ args = vars(ap.parse_args())
 
 # Read/Download MNIST Dataset
 print('Loading MNIST Dataset...')
-dataset = fetch_mldata('MNIST Original')
+# dataset = fetch_mldata('MNIST Original')
+dataset = fetch_openml('mnist_784')
 
 # Read the MNIST data as array of 784 pixels and convert to 28x28 image matrix 
 mnist_data = dataset.data.reshape((dataset.data.shape[0], 28, 28))
