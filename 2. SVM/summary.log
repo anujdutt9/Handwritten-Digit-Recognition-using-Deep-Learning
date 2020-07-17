@@ -1,0 +1,60 @@
+
+Loading MNIST Data...
+
+Loading Training Data...
+
+Loading Testing Data...
+
+Preparing Classifier Training and Validation Data...
+
+SVM Classifier with gamma = 0.1; Kernel = polynomial
+
+Pickling the Classifier for Future Use...
+
+Calculating Accuracy of trained Classifier...
+
+Making Predictions on Validation Data...
+
+Calculating Accuracy of Predictions...
+
+Creating Confusion Matrix...
+
+SVM Trained Classifier Accuracy:  0.9828333333333333
+
+Predicted Values:  [7 7 3 ... 4 1 7]
+
+Accuracy of Classifier on Validation Images:  0.9828333333333333
+
+Confusion Matrix: 
+ [[597   0   0   0   0   0   1   0   2   0]
+ [  0 670   2   0   0   0   0   2   1   1]
+ [  3   2 610   1   0   1   0   2   2   0]
+ [  0   1   5 596   0   4   0   0   2   1]
+ [  0   1   3   0 571   0   2   1   1   4]
+ [  2   0   2   3   1 544   2   0   2   2]
+ [  2   0   0   0   0   4 599   0   0   0]
+ [  0   1   1   1   2   0   0 571   0   3]
+ [  1   3   5   2   0   3   2   3 582   2]
+ [  1   0   0   2   2   1   0   3   0 557]]
+
+Making Predictions on Test Input Images...
+
+Calculating Accuracy of Trained Classifier on Test Data... 
+
+ Creating Confusion Matrix for Test Data...
+
+Predicted Labels for Test Images:  [7 2 1 ... 4 5 6]
+
+Accuracy of Classifier on Test Images:  0.9776
+
+Confusion Matrix for Test Data: 
+ [[ 972    0    1    1    0    3    1    0    2    0]
+ [   0 1124    2    2    0    0    4    0    3    0]
+ [   7    0 1006    0    2    0    4    8    5    0]
+ [   1    2    1  987    0    6    0    3    5    5]
+ [   3    0    1    0  966    0    2    1    0    9]
+ [   3    0    1   11    1  862    4    1    6    3]
+ [   5    5    1    0    3    7  935    0    2    0]
+ [   0   10    9    2    1    0    0 1000    0    6]
+ [   6    0    1    3    3    4    1    5  948    3]
+ [   3    6    1    5    9    3    1    3    2  976]]
