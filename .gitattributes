@@ -1,0 +1,2 @@
+*.pickle filter=lfs diff=lfs merge=lfs -text
+*-ubyte filter=lfs diff=lfs merge=lfs -text

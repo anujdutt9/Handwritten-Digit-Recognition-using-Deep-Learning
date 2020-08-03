@@ -13,9 +13,9 @@ style.use('ggplot')
 
 
 
-old_stdout = sys.stdout
-log_file = open("summary.log","w")
-sys.stdout = log_file
+# old_stdout = sys.stdout
+# log_file = open("summary.log","w")
+# sys.stdout = log_file
 
 
 print('\nLoading MNIST Data...')
@@ -104,8 +104,8 @@ plt.xlabel('Predicted label')
 plt.axis('off')
 plt.show()
 
-sys.stdout = old_stdout
-log_file.close()
+# sys.stdout = old_stdout
+# log_file.close()
 
 
 
