@@ -2,12 +2,8 @@ FROM gitpod/workspace-full:latest
 
 USER gitpod
 
-### Install Python 3.7
+### Install Python 3.7.8
 RUN set -x; \
-    sudo apt-get install -y software-properties-common
+    pyenv install 3.7.8
 RUN set -x; \
-    sudo add-apt-repository ppa:deadsnakes/ppa
-RUN set -x; \
-    sudo apt-get update
-RUN set -x; \
-    sudo apt-get install -y python3.7
+    pyenv global 3.7.8
