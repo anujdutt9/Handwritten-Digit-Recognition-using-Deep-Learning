@@ -4,6 +4,6 @@ USER gitpod
 
 ### Install Python 3.7.8
 RUN set -x; \
-    pyenv install 3.7.8
+    pyenv install 3.7.7
 RUN set -x; \
-    pyenv global 3.7.8
+    pyenv global 3.7.7
