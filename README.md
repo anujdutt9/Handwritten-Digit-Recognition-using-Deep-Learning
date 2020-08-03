@@ -1,4 +1,7 @@
 # Handwritten Digit Recognition using Machine Learning and Deep Learning
+[![Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning)
+![GitHub Actions](https://github.com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning/workflows/Python%20application/badge.svg)
+![Travis (.com)](https://img.shields.io/travis/com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning?logo=travis)
 
 ## Published Paper 
 
