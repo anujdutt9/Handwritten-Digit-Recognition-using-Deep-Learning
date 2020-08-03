@@ -10,5 +10,3 @@ github:
     addComment: true
     addBadge: true
     addLabel: true
-tasks:
-  - init: pip install -r requirements.txt
