@@ -1,0 +1,35 @@
+# Official language image. Look for the different tagged releases at https://hub.docker.com/r/library/python/tags/
+image: python:3.7.10
+
+# Change pip's cache directory to be inside the project directory since we can only cache local items.
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+# Pip's cache doesn't store the python packages, https://pip.pypa.io/en/stable/reference/pip_install/#caching
+# If you want to also cache the installed packages, you have to install them in a virtualenv and cache it as well.
+cache:
+  paths:
+    - .cache/pip
+    - venv/
+
+before_script:
+    # Print out python version
+  - python -V
+  - pip install virtualenv
+  - virtualenv venv
+  - source venv/bin/activate
+  - python -m pip install --upgrade pip
+  - pip install flake8
+  - if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+pylint:
+  script:
+    # stop the build if there are Python syntax errors or undefined names
+  - flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+    # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+  - flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+run:
+  script:
+    - cd CNN_Keras
+    - python CNN_MNIST.py
