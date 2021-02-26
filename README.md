@@ -2,6 +2,8 @@
 
 #### Note : Since, Git LFS on github.com does not currently support pushing LFS objects to public forks - Full pledged repository is moved to GitLab. Avalable On [Banee Ishaque K / Handwritten-Digit-Recognition-using-Deep-Learning](https://gitlab.com/baneeishaque/handwritten-digit-recognition-using-deep-learning). This repository is keep for tracking updates from upstream branch, anyway updates from all repositories will be synced as soon as possible.
 
+[![Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/baneeishaque/handwritten-digit-recognition-using-deep-learning)
+
 ## Published Paper 
 
 [IJARCET-VOL-6-ISSUE-7-990-997](http://ijarcet.org/wp-content/uploads/IJARCET-VOL-6-ISSUE-7-990-997.pdf)
@@ -131,6 +133,5 @@ https://www.youtube.com/watch?v=7kpYpmw5FfE
 
 ![Output a1](Outputs/output.png?raw=true "Output a1")       
 
-<!-- [![Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning)
-![GitHub Actions](https://github.com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning/workflows/Python%20application/badge.svg)
+<!-- ![GitHub Actions](https://github.com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning/workflows/Python%20application/badge.svg)
 ![Travis (.com)](https://img.shields.io/travis/com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning?logo=travis) --!>
