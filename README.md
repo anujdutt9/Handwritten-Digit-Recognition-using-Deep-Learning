@@ -133,7 +133,7 @@ https://www.youtube.com/watch?v=7kpYpmw5FfE
 
 ## Test Images Classification Output:
 
-![Output a1](Outputs/output.png?raw=true "Output a1")       
+![Output a1](Outputs/output.png "Output a1")       
 
 <!-- ![GitHub Actions](https://github.com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning/workflows/Python%20application/badge.svg)
 ![Travis (.com)](https://img.shields.io/travis/com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning?logo=travis) --!>
