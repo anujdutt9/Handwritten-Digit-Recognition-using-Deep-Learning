@@ -10,6 +10,6 @@ RUN curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.d
     && sudo apt-get update \
     && sudo apt-get install -y \ 
         git-lfs \
-    && sudo rm -rf /var/lib/apt/lists/*
-    && git lfs install \
+    && sudo rm -rf /var/lib/apt/lists/* \
+    && git lfs install
     
