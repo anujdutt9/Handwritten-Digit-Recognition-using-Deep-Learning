@@ -6,14 +6,10 @@ USER gitpod
 RUN pyenv install 3.7.7
 
 # Git LFS
-RUN build_deps="curl" \
+RUN curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash \
     && sudo apt-get update \
-    && sudo apt-get install -y --no-install-recommends \
-        ${build_deps} ca-certificates \
-    && curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash \
-    && sudo apt-get install -y --no-install-recommends \ 
+    && sudo apt-get install -y \ 
         git-lfs \
-    && git lfs install \
-    && sudo apt-get purge -y --auto-remove \
-    &&  ${build_deps} \
     && sudo rm -rf /var/lib/apt/lists/*
+    && git lfs install \
+    
