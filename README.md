@@ -1,5 +1,7 @@
 # Handwritten Digit Recognition using Machine Learning and Deep Learning
 
+#### Note : Since, Git LFS on github.com does not currently support pushing LFS objects to public forks - Full pledged repository is moved to GitLab. Avalable On [Banee Ishaque K / Handwritten-Digit-Recognition-using-Deep-Learning](https://gitlab.com/baneeishaque/handwritten-digit-recognition-using-deep-learning). This repository is keep for tracking updates from upstream branch, anyway updates from all repositories will be synced as soon as possible.
+
 ## Published Paper 
 
 [IJARCET-VOL-6-ISSUE-7-990-997](http://ijarcet.org/wp-content/uploads/IJARCET-VOL-6-ISSUE-7-990-997.pdf)
