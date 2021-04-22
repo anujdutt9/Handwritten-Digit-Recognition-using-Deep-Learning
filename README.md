@@ -6,6 +6,8 @@
 
 #### GitLab Repository : [Banee Ishaque K / Handwritten-Digit-Recognition-using-Deep-Learning](https://gitlab.com/baneeishaque/handwritten-digit-recognition-using-deep-learning) : [![Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/baneeishaque/handwritten-digit-recognition-using-deep-learning)
 
+[![codebeat badge](https://codebeat.co/badges/5d1f2a85-f028-47b2-bfd5-5821197fa3c7)](https://codebeat.co/projects/github-com-baneeishaque-handwritten-digit-recognition-using-deep-learning-master)
+
 ## Published Paper 
 
 [IJARCET-VOL-6-ISSUE-7-990-997](http://ijarcet.org/wp-content/uploads/IJARCET-VOL-6-ISSUE-7-990-997.pdf)
