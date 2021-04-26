@@ -78,7 +78,7 @@ for num in np.random.choice(np.arange(0, len(test_labels)), size=(5,)):
 
 	# Show and print the Actual Image and Predicted Label Value
 	print('Predicted Label: {}, Actual Value: {}'.format(prediction[0],np.argmax(test_labels[num])))
-	cv2.imshow('Digits', image)
-	cv2.waitKey(0)
+# 	cv2.imshow('Digits', image)
+# 	cv2.waitKey(0)
 
 #---------------------- EOC ---------------------
