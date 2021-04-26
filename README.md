@@ -6,7 +6,11 @@
 
 [//]: <> "#### GitLab Repository : [Banee Ishaque K / Handwritten-Digit-Recognition-using-Deep-Learning](https://gitlab.com/baneeishaque/handwritten-digit-recognition-using-deep-learning) : [![Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/baneeishaque/handwritten-digit-recognition-using-deep-learning)  "
 
-[![Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/baneeishaque/handwritten-digit-recognition-using-deep-learning) [![codebeat badge](https://codebeat.co/badges/5d1f2a85-f028-47b2-bfd5-5821197fa3c7)](https://codebeat.co/projects/github-com-baneeishaque-handwritten-digit-recognition-using-deep-learning-master)
+[![Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/baneeishaque/handwritten-digit-recognition-using-deep-learning)
+[![codebeat badge](https://codebeat.co/badges/a69064d2-264f-415a-b1b2-4866ce262967)](https://codebeat.co/projects/gitlab-com-baneeishaque-handwritten-digit-recognition-using-deep-learning-master)
+
+[//]: <> "![GitHub Actions](https://github.com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning/workflows/Python%20application/badge.svg)
+![Travis (.com)](https://img.shields.io/travis/com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning?logo=travis)"
 
 ## Published Paper 
 
@@ -136,6 +140,3 @@ https://www.youtube.com/watch?v=7kpYpmw5FfE
 ## Test Images Classification Output:
 
 ![Output a1](Outputs/output.png "Output a1")       
-
-<!-- ![GitHub Actions](https://github.com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning/workflows/Python%20application/badge.svg)
-![Travis (.com)](https://img.shields.io/travis/com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning?logo=travis) --!>

@@ -1,11 +1,3 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-*.pyc
-
-
 # Created by https://www.toptal.com/developers/gitignore/api/wintersmith,linux,macos,python,venv,pycharm
 # Edit at https://www.toptal.com/developers/gitignore?templates=wintersmith,linux,macos,python,venv,pycharm
 
@@ -301,6 +293,5 @@ plugins/
 templates/
 config.json
 package.json
-
 
 # End of https://www.toptal.com/developers/gitignore/api/wintersmith,linux,macos,python,venv,pycharm
