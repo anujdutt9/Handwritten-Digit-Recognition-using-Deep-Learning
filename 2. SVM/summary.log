@@ -19,23 +19,23 @@ Calculating Accuracy of Predictions...
 
 Creating Confusion Matrix...
 
-SVM Trained Classifier Accuracy:  0.998
+SVM Trained Classifier Accuracy:  0.9763333333333334
 
-Predicted Values:  [2 1 9 ..., 0 9 4]
+Predicted Values:  [2 0 2 ... 3 8 6]
 
-Accuracy of Classifier on Validation Images:  0.998
+Accuracy of Classifier on Validation Images:  0.9763333333333334
 
 Confusion Matrix: 
- [[591   0   0   0   0   0   1   0   1   0]
- [  0 681   1   0   0   0   0   0   0   0]
- [  0   0 591   0   0   0   0   0   0   0]
- [  0   0   0 634   0   1   0   0   0   0]
- [  0   0   0   0 589   0   0   0   0   1]
- [  0   0   0   1   0 491   1   0   0   0]
- [  0   0   0   0   0   0 576   0   0   0]
- [  1   0   0   0   0   0   0 648   0   0]
- [  0   0   0   1   0   0   1   0 563   0]
- [  0   0   1   0   0   0   0   0   1 624]]
+ [[604   1   1   0   0   2   2   0   2   1]
+ [  0 670   1   0   0   0   0   1   2   0]
+ [  4   1 620   2   0   1   2   1   3   1]
+ [  1   1   8 579   1   3   0   1   3   3]
+ [  1   1   1   0 572   0   0   1   1   7]
+ [  2   0   0   9   1 492   4   0   5   0]
+ [  2   1   0   0   2   2 590   0   3   0]
+ [  0   2   2   2   3   0   1 588   0   3]
+ [  0   1   1   6   3   4   2   0 564   0]
+ [  1   2   0   6   6   0   0   3   2 579]]
 
 Making Predictions on Test Input Images...
 
@@ -43,18 +43,18 @@ Calculating Accuracy of Trained Classifier on Test Data...
 
  Creating Confusion Matrix for Test Data...
 
-Predicted Labels for Test Images:  [7 2 1 ..., 4 5 6]
+Predicted Labels for Test Images:  [7 2 1 ... 4 5 6]
 
-Accuracy of Classifier on Test Images:  0.9786
+Accuracy of Classifier on Test Images:  0.9779
 
 Confusion Matrix for Test Data: 
- [[ 972    0    1    0    0    4    1    1    1    0]
+ [[ 971    0    1    1    0    3    2    0    2    0]
  [   0 1127    2    1    1    0    3    0    1    0]
- [   5    1 1009    0    2    0    5    7    3    0]
- [   0    2    1  986    0    6    0    5    6    4]
- [   2    0    2    0  967    0    3    0    0    8]
- [   2    0    2   11    1  865    4    1    3    3]
- [   6    5    1    0    3    5  936    0    2    0]
- [   0    9    8    2    1    0    0 1002    0    6]
- [   4    0    2    4    4    5    1    3  949    2]
- [   3    7    1    7   10    3    1    1    3  973]]
+ [   8    0 1008    0    1    0    4    7    4    0]
+ [   0    2    2  987    0    4    0    6    6    3]
+ [   1    0    3    0  967    0    3    0    0    8]
+ [   2    0    1   12    1  863    4    0    6    3]
+ [   4    5    2    0    3    5  936    0    3    0]
+ [   0   10    8    2    2    0    0  999    0    7]
+ [   6    1    1    4    4    5    1    4  945    3]
+ [   3    6    1    5   10    3    0    1    4  976]]

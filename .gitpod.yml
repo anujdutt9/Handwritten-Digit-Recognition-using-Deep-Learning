@@ -1,0 +1,29 @@
+image:
+  file: .gitpod.dockerfile
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: true
+    addComment: true
+    addBadge: true
+    addLabel: true
+
+tasks:
+  - init: pip install -r requirements.txt
+  - init: git lfs pull
+
+vscode:
+  extensions:
+    - codezombiech.gitignore@0.6.0:oJP0UqwrXt2Qgt5QRm1BIQ==
+
+# Ports to expose on workspace startup
+ports:
+  - port: 5900
+    onOpen: ignore
+  - port: 6080
+    onOpen: ignore
+    

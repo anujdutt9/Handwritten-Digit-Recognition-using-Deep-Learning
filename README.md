@@ -1,5 +1,17 @@
 # Handwritten Digit Recognition using Machine Learning and Deep Learning
 
+#### Note : Since, Git LFS on github.com does not currently support pushing LFS objects to public forks - Full pledged repository is moved to GitLab. Avalable On [Banee Ishaque K / Handwritten-Digit-Recognition-using-Deep-Learning](https://gitlab.com/baneeishaque/handwritten-digit-recognition-using-deep-learning). This repository is keep for tracking updates from upstream branch, anyway updates from all repositories will be synced as soon as possible.
+
+[//]: <> "#### GitHub Repository : [Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning](https://github.com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning) : [![Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning)  "
+
+[//]: <> "#### GitLab Repository : [Banee Ishaque K / Handwritten-Digit-Recognition-using-Deep-Learning](https://gitlab.com/baneeishaque/handwritten-digit-recognition-using-deep-learning) : [![Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/baneeishaque/handwritten-digit-recognition-using-deep-learning)  "
+
+[![Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/baneeishaque/handwritten-digit-recognition-using-deep-learning)
+[![codebeat badge](https://codebeat.co/badges/a69064d2-264f-415a-b1b2-4866ce262967)](https://codebeat.co/projects/gitlab-com-baneeishaque-handwritten-digit-recognition-using-deep-learning-master)
+
+[//]: <> "![GitHub Actions](https://github.com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning/workflows/Python%20application/badge.svg)
+![Travis (.com)](https://img.shields.io/travis/com/Baneeishaque/Handwritten-Digit-Recognition-using-Deep-Learning?logo=travis)"
+
 ## Published Paper 
 
 [IJARCET-VOL-6-ISSUE-7-990-997](http://ijarcet.org/wp-content/uploads/IJARCET-VOL-6-ISSUE-7-990-997.pdf)
@@ -127,4 +139,4 @@ https://www.youtube.com/watch?v=7kpYpmw5FfE
 
 ## Test Images Classification Output:
 
-![Output a1](Outputs/output.png?raw=true "Output a1")       
+![Output a1](Outputs/output.png "Output a1")       
