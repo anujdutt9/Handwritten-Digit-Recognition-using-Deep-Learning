@@ -1,6 +1,6 @@
 keras==2.13.1
 tensorflow==2.12.1
-scikit-learn==0.23.2
+scikit-learn==1.5.0
 numpy
 matplotlib
 opencv-python
